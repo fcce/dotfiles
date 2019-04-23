@@ -1,3 +1,6 @@
 [submodule "traffic-zsh-theme"]
 	path = traffic-zsh-theme
 	url = git@github.com:fcce/traffic-zsh-theme.git
+[submodule "iterm2-snazzy"]
+	path = iterm2-snazzy
+	url = git@github.com:sindresorhus/iterm2-snazzy.git
