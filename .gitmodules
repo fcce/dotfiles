@@ -1,0 +1,3 @@
+[submodule "traffic-zsh-theme"]
+	path = traffic-zsh-theme
+	url = git@github.com:fcce/traffic-zsh-theme.git
