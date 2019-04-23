@@ -1,0 +1,44 @@
+{
+  "auto_complete": false,
+  "caret_extra_bottom": 3,
+  "caret_extra_top": 3,
+  "caret_extra_width": 2,
+  "caret_style": "phase",
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  "default_line_ending": "unix",
+  "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": true,
+  "figlet_font": "banner",
+  "file_exclude_patterns":
+  [
+    ".tags",
+    ".tags_sorted_by_file",
+    "dump.rdb",
+    ".pyc",
+    ".DS_Store"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".idea",
+    ".git",
+    "__pycache__"
+  ],
+  "font_size": 14,
+  "highlight_line": true,
+  "http_proxy": "127.0.0.1:1087",
+  "https_proxy": "127.0.0.1:1087",
+  "ignored_packages": [],
+  "index_files": false,
+  "material_theme_small_tab": true,
+  "overlay_scroll_bars": "enabled",
+  "predawn_tabs_small": true,
+  "show_panel_on_build": true,
+  "tab_size": 2,
+  "theme": "Material-Theme-Darker.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "wide_caret": true,
+  "word_wrap": true,
+  "wrap_width": 80
+}
