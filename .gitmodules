@@ -4,3 +4,6 @@
 [submodule "iterm2-snazzy"]
 	path = iterm2-snazzy
 	url = git@github.com:sindresorhus/iterm2-snazzy.git
+[submodule "vim-solarized8"]
+	path = vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
