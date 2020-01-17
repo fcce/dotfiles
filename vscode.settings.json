@@ -1,0 +1,36 @@
+{
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[ruby]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": false,
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.linting.pylintArgs": [
+        "--generate-members"
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+       "--ignore=E402",
+       "--max-line-length=120"
+    ],
+    "python.formatting.autopep8Args": ["--ignore", "E402"],
+    "http.proxy": "http://127.0.0.1:1087",
+    "terminal.integrated.inheritEnv": false,
+    "editor.largeFileOptimizations": false,
+    "editor.fontSize": 14,
+}
