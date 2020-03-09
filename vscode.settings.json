@@ -33,4 +33,21 @@
     "terminal.integrated.inheritEnv": false,
     "editor.largeFileOptimizations": false,
     "editor.fontSize": 14,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[sql]": {
+        "editor.defaultFormatter": "bradymholt.pgformatter"
+    },
+    "python.pythonPath": "/Users/feng/.pyenv/shims/python",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    // "oneDarkPro.vivid": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.enabled": false,
+    "workbench.colorTheme": "One Monokai",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1d1f23"
+    }
 }
