@@ -25,29 +25,49 @@
     ],
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pycodestyleArgs": [
-       "--ignore=E402",
-       "--max-line-length=120"
+        "--ignore=E402",
+        "--max-line-length=120"
     ],
-    "python.formatting.autopep8Args": ["--ignore", "E402"],
-    "http.proxy": "http://127.0.0.1:1087",
+    "python.formatting.autopep8Args": [
+        "--ignore",
+        "E402"
+    ],
     "terminal.integrated.inheritEnv": false,
     "editor.largeFileOptimizations": false,
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
-    "[sql]": {
-        "editor.defaultFormatter": "bradymholt.pgformatter"
-    },
     "python.pythonPath": "/Users/feng/.pyenv/shims/python",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
     // "oneDarkPro.vivid": true,
     "todo-tree.tree.showScanModeButton": false,
     "todo-tree.highlights.enabled": false,
-    "workbench.colorTheme": "One Monokai",
-    "workbench.colorCustomizations": {
-        "editor.background": "#1d1f23"
-    }
+    "editor.fontFamily": "'Jetbrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "tabnine.experimentalAutoImports": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "python.jediEnabled": false,
+    "files.associations": {
+        "*.hql": "sql"
+    },
+    "python.languageServer": "Microsoft",
+    "python.dataScience.allowUnauthorizedRemoteConnection": true,
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "http.proxy": "http://localhost:1087",
 }
