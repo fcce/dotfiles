@@ -1,8 +1,8 @@
 {
-    "window.zoomLevel": 1,
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
+    "editor.guides.bracketPairs": true,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "editor.wordWrap": "wordWrapColumn",
@@ -12,6 +12,9 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
+    "ruby.rubocop.onSave": true,
+    "ruby.rubocop.executePath": "/Users/ce/.rbenv/shims/",
+    "ruby.rubocop.suppressRubocopWarnings": false,
     "[python]": {
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
@@ -37,8 +40,8 @@
     "editor.fontSize": 15,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
+    "sequencediagrams.diagram.style": "simple",
     "python.pythonPath": "/Users/feng/.pyenv/shims/python",
-    "terminal.integrated.shell.osx": "/bin/zsh",
     // "oneDarkPro.vivid": true,
     "todo-tree.tree.showScanModeButton": false,
     "todo-tree.highlights.enabled": false,
@@ -55,6 +58,7 @@
     "java.semanticHighlighting.enabled": true,
     "files.exclude": {
         "**/.classpath": true,
+        "**/.history": true,
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
@@ -64,10 +68,50 @@
     "files.associations": {
         "*.hql": "sql"
     },
-    "python.languageServer": "Microsoft",
-    "python.dataScience.allowUnauthorizedRemoteConnection": true,
+    "python.languageServer": "Pylance",
     "terminal.integrated.env.linux": {
         "PYTHONPATH": "${workspaceFolder}"
     },
-    "http.proxy": "http://localhost:1087",
+    "http.proxy": "http://localhost:7890",
+    "jupyter.allowUnauthorizedRemoteConnection": true,
+    "protoc": {
+        "compile_on_save": false,
+        "options": [
+            "--proto_path=${workspaceRoot}/protos",
+            "--proto_path=${workspaceRoot}/common/pb",
+            "--proto_path=${workspaceRoot}/",
+            "--ruby_out=${workspaceRoot}/",
+        ]
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "C_Cpp.updateChannel": "Insiders",
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "/Users/ce/.pyenv/versions/3.9.0/bin/python",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1
 }
