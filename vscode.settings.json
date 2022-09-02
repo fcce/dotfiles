@@ -3,9 +3,8 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.guides.bracketPairs": true,
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
     "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "[ruby]": {
@@ -40,12 +39,16 @@
     "editor.fontSize": 15,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
+    "go.buildFlags": [
+        "-tags=dev"
+    ],
+    "go.testTags": "dev",
     "sequencediagrams.diagram.style": "simple",
     "python.pythonPath": "/Users/feng/.pyenv/shims/python",
     // "oneDarkPro.vivid": true,
-    "todo-tree.tree.showScanModeButton": false,
     "todo-tree.highlights.enabled": false,
-    "editor.fontFamily": "'Jetbrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": false,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -63,16 +66,14 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "java.refactor.renameFromFileExplorer": "autoApply",
-    "python.jediEnabled": false,
     "files.associations": {
-        "*.hql": "sql"
+        "*.hql": "sql",
+        "*.json": "jsonc"
     },
     "python.languageServer": "Pylance",
     "terminal.integrated.env.linux": {
         "PYTHONPATH": "${workspaceFolder}"
     },
-    "http.proxy": "http://localhost:7890",
     "jupyter.allowUnauthorizedRemoteConnection": true,
     "protoc": {
         "compile_on_save": false,
@@ -105,7 +106,7 @@
         "editor.defaultFormatter": "DotJoshJohnson.xml"
     },
     "security.workspace.trust.untrustedFiles": "open",
-    "python.defaultInterpreterPath": "/Users/ce/.pyenv/versions/3.9.0/bin/python",
+    "python.defaultInterpreterPath": "/Users/ce/.pyenv/versions/3.9.4/bin/python",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
@@ -113,5 +114,38 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "window.zoomLevel": 1
+    "cmake.configureOnOpen": true,
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true,
+        "ruby": true,
+        "go": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "gopls": {
+        "experimentalWorkspaceModule": true,
+    },
+    "extension.bracket_char": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "notebook.output.textLineLimit": 50,
+    "workbench.editor.untitled.hint": "hidden",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
