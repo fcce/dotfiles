@@ -25,7 +25,7 @@
           "type": "git",
           "style": "plain",
           "foreground": "#D0666F",
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }} {{ if .Working.Changed }}\uf094{{ else if .Staging.Changed }}\uf043{{ end }}",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }} {{ if .Working.Changed }}\uf10c{{ else if .Staging.Changed }}\uf111{{ end }}",
           "properties": {
             "branch_icon": "",
             "fetch_status": true
