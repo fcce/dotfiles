@@ -1,0 +1,26 @@
+// Custom shortcuts migrated from VS Code.
+[
+  {
+    "bindings": {
+      "secondary-,": "pane::ActivatePreviousItem",
+      "secondary-.": "pane::ActivateNextItem",
+      "secondary-shift-e": "project_panel::ToggleFocus",
+      "secondary-shift-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "os == macos",
+    "bindings": {
+      "ctrl-shift-g": null
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "shift-enter": [
+        "terminal::SendText",
+        "\u001b\r"
+      ]
+    }
+  }
+]

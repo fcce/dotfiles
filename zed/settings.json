@@ -1,0 +1,143 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "Zed (Default)",
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "agent": {
+    "threads_sidebar": {
+      "position": "right"
+    },
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-3.8-flash",
+      "enable_thinking": true,
+      "effort": "high"
+    },
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-6-luna",
+      "enable_thinking": false
+    },
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "global_lsp_settings": {
+    "button": false
+  },
+  "disable_ai": false,
+  "enable_language_server": false,
+  "diff_view_style": "split",
+  "project_panel": {
+    "dock": "left",
+    "button": true
+  },
+  "git_panel": {
+    "dock": "left",
+    "tree_view": true,
+    "group_by": "none",
+    "entry_primary_click_action": "file_diff",
+    "starts_open": true,
+    "commit_editor": "collapsed"
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "terminal": {
+    "env": {
+      "FIG_NEW_SESSION": "1"
+    }
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "buffer_font_fallbacks": [
+    "Fira Code",
+    "Menlo",
+    "Monaco",
+    "Courier New",
+    "monospace"
+  ],
+  "buffer_font_family": "Ioskeley Mono",
+  "buffer_font_features": {
+    "calt": false,
+    "liga": false
+  },
+  "file_scan_exclusions": [
+    "**/.classpath",
+    "**/.history",
+    "**/.project",
+    "**/.settings",
+    "**/.factorypath",
+    "..."
+  ],
+  "file_types": {
+    "SQL": [
+      "*.hql"
+    ],
+    "JSONC": [
+      "*.json"
+    ]
+  },
+  "show_whitespaces": "all",
+  "show_edit_predictions": true,
+  "edit_predictions": {
+    "mode": "eager",
+    "provider": "copilot"
+  },
+  "format_on_save": "on",
+  "preferred_line_length": 80,
+  "soft_wrap": "editor_width",
+  "languages": {
+    "Ruby": {
+      "tab_size": 2,
+      "hard_tabs": false,
+      "format_on_save": "on",
+      "language_servers": ["ruby-lsp", "!solargraph", "!rubocop", "..."]
+    },
+    "Python": {
+      "tab_size": 4,
+      "hard_tabs": false,
+      "format_on_save": "off"
+    }
+  },
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "ruby": true
+  },
+  "lsp": {
+    "ruby-lsp": {
+      "binary": {
+        "path": "mise",
+        "arguments": ["exec", "--", "env", "BUNDLE_FROZEN=true", "bundle", "exec", "ruby-lsp"]
+      }
+    }
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    }
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": "Catppuccin Mocha - No Italics",
+}
